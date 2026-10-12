@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulador de roles de revisión académica</title>
+<style>
+:root{--v:#6D1A36;--vd:#4A1024;--cr:#F4EEE3;--am:#E8B730;--tx:#2B2420}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cr);color:var(--tx);font-family:Calibri,Arial,sans-serif;line-height:1.5}
+header{background:var(--v);color:#fff;padding:48px 16px 40px}
+.w{max-width:980px;margin:0 auto;padding:0 16px}
+h1{font-family:Georgia,serif;font-size:clamp(28px,5vw,44px);margin:0 0 4px}
+.en{font-family:Georgia,serif;font-size:clamp(18px,3vw,24px);color:#f3dfe6;margin:0 0 20px}
+.authors{font-weight:bold}
+.notice{color:var(--am);font-style:italic;font-size:14px;margin-top:16px}
+main{padding:32px 0 48px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.card{background:#fff;border-radius:10px;padding:18px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.card h2{font-family:Georgia,serif;color:var(--v);margin:0 0 6px;font-size:22px}
+.card p{margin:0 0 12px;font-size:15px}
+video{width:100%;border-radius:6px;background:#000}
+.links{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+a.btn{display:inline-block;background:var(--am);color:var(--vd);text-decoration:none;font-weight:bold;padding:8px 14px;border-radius:20px;font-size:14px}
+.nota{margin-top:24px;text-align:center}
+footer{background:var(--vd);color:#e9d6dd;font-size:13px;padding:16px 0;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="w">
+<h1>Simulador de roles de revisión académica</h1>
+<p class="en">Academic Review Role Simulator</p>
+<p class="authors">Verónica Chávez · UTPL &nbsp;&nbsp; Sara Aimacaña · UTE</p>
+<p class="notice">Narración generada con voz de IA (ElevenLabs) y revisada por los autores.<br>Narration generated with an AI voice (ElevenLabs) and reviewed by the authors.</p>
+</div></header>
+<main><div class="w">
+<div class="grid">
+<section class="card" lang="es">
+<h2>Español</h2>
+<p>Tres roles de IA revisan un artículo con la rúbrica de la revista antes del envío. La persona autora decide.</p>
+<video controls preload="metadata" src="VC-2026-026-013_ProyectoFinal_ES.mp4"></video>
+<div class="links"><a class="btn" href="VC-2026-026-013_ProyectoFinal_ES.pptx">Presentación (.pptx)</a></div>
+</section>
+<section class="card" lang="en">
+<h2>English</h2>
+<p>Three AI roles review an article against the journal rubric before submission. The author decides.</p>
+<video controls preload="metadata" src="VC-2026-026-013_ProyectoFinal_EN.mp4"></video>
+<div class="links"><a class="btn" href="VC-2026-026-013_ProyectoFinal_EN.pptx">Slides (.pptx)</a></div>
+</section>
+</div>
+<p class="nota"><a class="btn" href="VC-2026-026-013_NotaMetodologica.docx">Nota metodológica (.docx)</a></p>
+</div></main>
+<footer>Vibe Coding CEDIA 2026 · Universidad UTE · UTPL</footer>
+</body>
+</html>
